@@ -1,0 +1,159 @@
+.box
+{
+    height: 1200px;
+    width: 430px;
+    background-color: #83d8ff;
+    display: inline;
+    justify-content: flex-start;
+}
+.avatar
+{
+    margin-top: 25px;
+    height: 175px;
+    width: 175px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 4px;
+    border-color: #FFFFFF;
+    position: relative;
+    bottom: 15px;
+}
+.circle
+{
+    height: 200px;
+    width: 200px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    border-radius: 50%;
+    background-color: #0091ff;
+    display: flex;
+    justify-content: center;
+    box-shadow: -10px 10px 20px #00257b;
+}
+.paper
+{
+    height: 1200px;
+    width: 1300px;
+    background-color: white;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 50px;
+    margin-left: 75px;
+    margin-bottom: 50px;
+    margin-right: 0px;
+    box-shadow: -10px 10px 20px;
+}
+h1
+{
+    color:#0091ff;
+    font-family: Arial;
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.infor
+{
+    font-family: Tahoma;
+    font-size: 25px;
+    color: #00257b;
+    margin-left: 10px;
+
+}
+.in4
+{
+    display: flex; 
+    justify-content: flex-start; 
+    margin-left: 25px;
+}
+.fullskill
+{
+    height: 27px;
+    width: 350px;
+    border-radius: 50px;
+    margin-left: 30px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: flex-start;
+}
+.percent-skill
+{
+    height: 27px;
+    border-radius: 50px;
+    background-color: #00257b;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.c-skill
+{
+    width: 70%;
+}
+.sql-skill
+{
+    width: 85%;
+}
+.java-skill
+{
+    width: 50%;
+}
+.html-skill
+{
+    width: 60%;
+}
+.css-skill
+{
+    width: 65%;
+}
+.name-skill
+{
+    font-family: Tahoma;
+    font-size: 25px; 
+    color: #00257b;
+    font-weight: bold;
+    margin-left: 30px;
+}
+.percent
+{
+    font-family: Tahoma;
+    font-size: 20px;
+    color: #ffffff;
+    margin-right: 10px;
+}
+.introduction
+{
+    font-family: Tahoma;
+    font-size: 20px;
+    height: 1500px;
+    width: 500px;
+    line-height: 30px;
+    background-color:#00257b;
+}
+h2
+{
+    font-family: Tahoma;
+    margin-top: 20px; margin-left: 20px; font-size: 35px; margin-bottom: 0px; color: #00257b;
+}
+.proj
+{
+    font-size: 20px;
+    font-family: Tahoma;
+    font-weight: bold; 
+    text-decoration: none;
+    margin-left: 25px;
+    margin-top: 0px; 
+    color:#00257b;
+    position: relative;
+    bottom: 30px;
+}
+a.proj:hover h2
+{
+    text-decoration: underline;
+}
+.github:hover p
+{
+    text-decoration: underline;
+}
+.facebook:hover p
+{
+    text-decoration: underline;
+}
